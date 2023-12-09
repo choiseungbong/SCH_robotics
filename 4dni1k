@@ -1,0 +1,80 @@
+[33mcommit 972ef9ecc0837220fad12ff6b6e5c94c4ebbec35[m[33m ([m[1;36mHEAD -> [m[1;32mrobotics[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: seungmin <jksil200@naver.com>
+Date:   Sun Dec 10 02:33:38 2023 +0900
+
+    add new file
+
+[33mcommit 7683f2861dd3a05697d9b34d09f57c09c5e683ef[m
+Merge: 928f13f 685cc4f
+Author: choiseungbong <151709544+choiseungbong@users.noreply.github.com>
+Date:   Wed Nov 29 14:31:06 2023 +0900
+
+    Merge pull request #1 from choiseungbong/make-dict-operators
+    
+    Make dict operators
+
+[33mcommit 685cc4f10aa997b5706c07aa68499db5dc5d2e29[m[33m ([m[1;31morigin/make-dict-operators[m[33m)[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 14:20:57 2023 +0900
+
+    make main to use dict ops
+
+[33mcommit 9ac037af36e12d1022188512912cd5a14631af9f[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 14:20:05 2023 +0900
+
+    create dictionary operator module
+
+[33mcommit 928f13fed47e3031c193a6f94ac8d045bd299e43[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 14:15:20 2023 +0900
+
+    change main to use list ops
+
+[33mcommit 6de2a5721a3cb83b5fd6ba352dba672c84a4a4e1[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 14:14:41 2023 +0900
+
+    implement multiply and substract
+
+[33mcommit 84887599ab749cdd3286cae8c5355f20b21a72f3[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 14:13:52 2023 +0900
+
+    implement add and subtract
+
+[33mcommit 311df246bba5efe16ea14f5e2d0450c8ef271b7e[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 14:05:49 2023 +0900
+
+    move files to git  practice
+
+[33mcommit bd3bd107b3d020c90f852e5d926e05c4c49a7804[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 14:04:02 2023 +0900
+
+    edit anything.py
+
+[33mcommit 8062cfeffcff0f4b3eaa7e50112e5af8d54e3c03[m
+Author: choiseungbong/SCH_robotics <als001116@naver.com>
+Date:   Wed Nov 29 13:58:33 2023 +0900
+
+    add new file
+
+[33mcommit ed5ded3d951de254d825c37199bc0f1b8e3bbcce[m
+Author: choiseungbong <als001116@naver.com>
+Date:   Tue Nov 28 11:34:39 2023 +0900
+
+    remove and ignore pyc files
+
+[33mcommit 8a36b6a7233a31db69f874e33de72e1889765636[m
+Author: choiseungbong <als001116@naver.com>
+Date:   Tue Nov 28 11:26:34 2023 +0900
+
+    add add_list.py
+
+[33mcommit 9e016d642ddbf47a5eead4e8e3bd0a505b21dd5f[m
+Author: choiseungbong <151709544+choiseungbong@users.noreply.github.com>
+Date:   Wed Nov 22 14:13:31 2023 +0900
+
+    Initial commit

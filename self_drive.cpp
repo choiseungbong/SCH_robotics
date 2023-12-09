@@ -39,11 +39,7 @@ public:
       vel.linear.x = 0.0;
       vel.angular.z = 2.0;
     }
-     else if( scan->ranges[270] < 0.25 && !(scan->ranges[310] < 0.25))
-    {
-      vel.linear.x = 0.0;
-      vel.angular.z = -13.0;
-    }
+
 
     RCLCPP_INFO(rclcpp::get_logger("self_drive"),
                 "step=%d, range=%1.2f, linear=%1.2f, angular=%1.2f", step_, scan->ranges[0],
