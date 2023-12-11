@@ -28,18 +28,29 @@ public:
     pose_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", vel_qos_profile);
   }
 
-  void subscribe_scan(const sensor_msgs::msg::LaserScan::SharedPtr scan)
-  {
-    geometry_msgs::msg::Twist vel;
-   
-    vel.linear.x = 0.15;
-    vel.angular.z = 0.0;
-    if( scan->ranges[0] < 0.25 || scan->ranges[340] < 0.25)
-    {
-      vel.linear.x = 0.0;
-      vel.angular.z = 2.0;
-    }
+ void subscribe_scan (const sensor_msgs ::msg ::LaserScan ::SharedPtr scan )
+  {
+   geometry_msgs ::msg ::Twist vel;
 
+   if (scan ->ranges [0 ] <0.25 ||scan ->ranges [340 ] <0.25 ||scan ->ranges [330 ] <0.25 ||)
+   {
+
+    vel .linear .x =0.;
+    vel .angular .z =0.75 ;
+   }
+
+   else if (scan ->ranges [270 ] <0.25 &&!(scan ->ranges [310 ] <0.25 ) )
+   {
+
+    vel .linear .x =0.;
+    vel .angular .z =-0.5 ;
+   }
+   else
+   {
+
+    vel .linear .x =0.15 ;
+    vel .angular .z =0.;
+   }
 
     RCLCPP_INFO(rclcpp::get_logger("self_drive"),
                 "step=%d, range=%1.2f, linear=%1.2f, angular=%1.2f", step_, scan->ranges[0],
